@@ -50,6 +50,22 @@
 		B5B9155228CC9DC5004E3077 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155128CC9DC5004E3077 /* SettingsView.swift */; };
 		B5B9155428CC9DD2004E3077 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155328CC9DD2004E3077 /* SettingsItemView.swift */; };
 		B5B9155628CC9DEE004E3077 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155528CC9DEE004E3077 /* SettingsPresenter.swift */; };
+		B5B9155C28CCBB24004E3077 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155B28CCBB24004E3077 /* Colors.swift */; };
+		B5B9155E28CCBB30004E3077 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155D28CCBB30004E3077 /* Fonts.swift */; };
+		B5B9156028CCBB3F004E3077 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9155F28CCBB3F004E3077 /* Sizes.swift */; };
+		B5B9156228CCBB55004E3077 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156128CCBB55004E3077 /* API.swift */; };
+		B5B9156428CCBB6C004E3077 /* ObserverConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156328CCBB6C004E3077 /* ObserverConstants.swift */; };
+		B5B9156628CCBB7F004E3077 /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156528CCBB7F004E3077 /* TextFormatter.swift */; };
+		B5B9156828CCBB9B004E3077 /* UIImage + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156728CCBB9B004E3077 /* UIImage + extension.swift */; };
+		B5B9156A28CCBBAA004E3077 /* UIScrollView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156928CCBBAA004E3077 /* UIScrollView + extension.swift */; };
+		B5B9156C28CCBBB9004E3077 /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9156B28CCBBB9004E3077 /* UIViewController + extension.swift */; };
+		B5B9157328CCBC48004E3077 /* FontNames in Resources */ = {isa = PBXBuildFile; fileRef = B5B9156E28CCBC48004E3077 /* FontNames */; };
+		B5B9157428CCBC48004E3077 /* LabGrotesque-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B9156F28CCBC48004E3077 /* LabGrotesque-Thin.ttf */; };
+		B5B9157528CCBC48004E3077 /* LabGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B9157028CCBC48004E3077 /* LabGrotesque-Regular.ttf */; };
+		B5B9157628CCBC48004E3077 /* LabGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B9157128CCBC48004E3077 /* LabGrotesque-Bold.ttf */; };
+		B5B9157728CCBC48004E3077 /* LabGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B9157228CCBC48004E3077 /* LabGrotesque-Medium.ttf */; };
+		B5B9157A28CCBCB3004E3077 /* Rockets.JSON in Resources */ = {isa = PBXBuildFile; fileRef = B5B9157928CCBCB3004E3077 /* Rockets.JSON */; };
+		B5B9157C28CCBCD7004E3077 /* Launches.JSON in Resources */ = {isa = PBXBuildFile; fileRef = B5B9157B28CCBCD7004E3077 /* Launches.JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +133,22 @@
 		B5B9155128CC9DC5004E3077 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B5B9155328CC9DD2004E3077 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
 		B5B9155528CC9DEE004E3077 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		B5B9155B28CCBB24004E3077 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B5B9155D28CCBB30004E3077 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B5B9155F28CCBB3F004E3077 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		B5B9156128CCBB55004E3077 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B5B9156328CCBB6C004E3077 /* ObserverConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConstants.swift; sourceTree = "<group>"; };
+		B5B9156528CCBB7F004E3077 /* TextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatter.swift; sourceTree = "<group>"; };
+		B5B9156728CCBB9B004E3077 /* UIImage + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + extension.swift"; sourceTree = "<group>"; };
+		B5B9156928CCBBAA004E3077 /* UIScrollView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView + extension.swift"; sourceTree = "<group>"; };
+		B5B9156B28CCBBB9004E3077 /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
+		B5B9156E28CCBC48004E3077 /* FontNames */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FontNames; sourceTree = "<group>"; };
+		B5B9156F28CCBC48004E3077 /* LabGrotesque-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Thin.ttf"; sourceTree = "<group>"; };
+		B5B9157028CCBC48004E3077 /* LabGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		B5B9157128CCBC48004E3077 /* LabGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		B5B9157228CCBC48004E3077 /* LabGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		B5B9157928CCBCB3004E3077 /* Rockets.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rockets.JSON; sourceTree = "<group>"; };
+		B5B9157B28CCBCD7004E3077 /* Launches.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Launches.JSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +201,7 @@
 			children = (
 				B5B914EA28CC92EF004E3077 /* Services */,
 				B5B914E928CC92E4004E3077 /* Core */,
+				B5B9155728CCBAAC004E3077 /* Supporting Files */,
 				B5B914EC28CC9333004E3077 /* Resource */,
 				B5B914EB28CC9317004E3077 /* Other */,
 			);
@@ -549,6 +582,54 @@
 			path = Subviews;
 			sourceTree = "<group>";
 		};
+		B5B9155728CCBAAC004E3077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B9155828CCBADD004E3077 /* Helpers */,
+				B5B9156D28CCBC48004E3077 /* Fonts */,
+				B5B9155A28CCBAF5004E3077 /* JSONs */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5B9155828CCBADD004E3077 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5B9155B28CCBB24004E3077 /* Colors.swift */,
+				B5B9155D28CCBB30004E3077 /* Fonts.swift */,
+				B5B9155F28CCBB3F004E3077 /* Sizes.swift */,
+				B5B9156128CCBB55004E3077 /* API.swift */,
+				B5B9156328CCBB6C004E3077 /* ObserverConstants.swift */,
+				B5B9156528CCBB7F004E3077 /* TextFormatter.swift */,
+				B5B9156728CCBB9B004E3077 /* UIImage + extension.swift */,
+				B5B9156928CCBBAA004E3077 /* UIScrollView + extension.swift */,
+				B5B9156B28CCBBB9004E3077 /* UIViewController + extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B5B9155A28CCBAF5004E3077 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				B5B9157928CCBCB3004E3077 /* Rockets.JSON */,
+				B5B9157B28CCBCD7004E3077 /* Launches.JSON */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		B5B9156D28CCBC48004E3077 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B5B9156E28CCBC48004E3077 /* FontNames */,
+				B5B9156F28CCBC48004E3077 /* LabGrotesque-Thin.ttf */,
+				B5B9157028CCBC48004E3077 /* LabGrotesque-Regular.ttf */,
+				B5B9157128CCBC48004E3077 /* LabGrotesque-Bold.ttf */,
+				B5B9157228CCBC48004E3077 /* LabGrotesque-Medium.ttf */,
+			);
+			name = Fonts;
+			path = ../Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -653,9 +734,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B9157A28CCBCB3004E3077 /* Rockets.JSON in Resources */,
+				B5B9157328CCBC48004E3077 /* FontNames in Resources */,
 				B5B914C428CC8FDC004E3077 /* LaunchScreen.storyboard in Resources */,
+				B5B9157428CCBC48004E3077 /* LabGrotesque-Thin.ttf in Resources */,
+				B5B9157628CCBC48004E3077 /* LabGrotesque-Bold.ttf in Resources */,
 				B5B914C128CC8FDC004E3077 /* Assets.xcassets in Resources */,
 				B5B914BF28CC8FDB004E3077 /* Main.storyboard in Resources */,
+				B5B9157528CCBC48004E3077 /* LabGrotesque-Regular.ttf in Resources */,
+				B5B9157728CCBC48004E3077 /* LabGrotesque-Medium.ttf in Resources */,
+				B5B9157C28CCBCD7004E3077 /* Launches.JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +768,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B9156C28CCBBB9004E3077 /* UIViewController + extension.swift in Sources */,
 				B5B9155228CC9DC5004E3077 /* SettingsView.swift in Sources */,
 				B5B9154828CC9D21004E3077 /* DetailsCollectionCell.swift in Sources */,
 				B5B914EE28CC9384004E3077 /* NetworkManager.swift in Sources */,
@@ -690,11 +779,14 @@
 				B5B9153E28CC9C8F004E3077 /* MainPresenter.swift in Sources */,
 				B5B9152328CC998E004E3077 /* MainCollectionViewCell.swift in Sources */,
 				B5B9154228CC9CCF004E3077 /* DetailsViewController.swift in Sources */,
+				B5B9156A28CCBBAA004E3077 /* UIScrollView + extension.swift in Sources */,
 				B5B9153A28CC9C3C004E3077 /* MainButtonSectionViewModel.swift in Sources */,
 				B5B9150928CC975D004E3077 /* BasePresenter.swift in Sources */,
 				B5B9152A28CC9A1A004E3077 /* MainTableViewViewModel.swift in Sources */,
+				B5B9156828CCBB9B004E3077 /* UIImage + extension.swift in Sources */,
 				B5B9152628CC99BF004E3077 /* MainCollectionViewCellViewModelProtocol.swift in Sources */,
 				B5B914F028CC93A6004E3077 /* DataManager.swift in Sources */,
+				B5B9156428CCBB6C004E3077 /* ObserverConstants.swift in Sources */,
 				B5B9154B28CC9D4E004E3077 /* DetailsCollectionCellViewModel.swift in Sources */,
 				B5B9155628CC9DEE004E3077 /* SettingsPresenter.swift in Sources */,
 				B5B9151E28CC9926004E3077 /* MainViewHeader.swift in Sources */,
@@ -702,18 +794,23 @@
 				B5B9151528CC9875004E3077 /* MainViewController.swift in Sources */,
 				B5B9153828CC9C2F004E3077 /* MainStageSectionViewModel.swift in Sources */,
 				B5B9151328CC984F004E3077 /* RocketData.swift in Sources */,
+				B5B9156228CCBB55004E3077 /* API.swift in Sources */,
 				B5B9154028CC9CAE004E3077 /* LaunchModel.swift in Sources */,
 				B5B914F728CC95D0004E3077 /* NavigationController.swift in Sources */,
 				B5B914B828CC8FDB004E3077 /* AppDelegate.swift in Sources */,
 				B5B9155428CC9DD2004E3077 /* SettingsItemView.swift in Sources */,
 				B5B914F928CC95E4004E3077 /* Router.swift in Sources */,
 				B5B9153128CC9BD2004E3077 /* MainShowButtonCell.swift in Sources */,
+				B5B9155E28CCBB30004E3077 /* Fonts.swift in Sources */,
 				B5B9152F28CC9BA5004E3077 /* MainStageSectionCell.swift in Sources */,
+				B5B9156628CCBB7F004E3077 /* TextFormatter.swift in Sources */,
 				B5B9150428CC970F004E3077 /* RocketModel.swift in Sources */,
 				B5B9153428CC9C14004E3077 /* MainTableViewCellViewModel.swift in Sources */,
+				B5B9155C28CCBB24004E3077 /* Colors.swift in Sources */,
 				B5B914FB28CC9607004E3077 /* AssemblyBuilder.swift in Sources */,
 				B5B9154F28CC9D8C004E3077 /* SettingsViewController.swift in Sources */,
 				B5B9154628CC9D09004E3077 /* DetailsCollectionViewModel.swift in Sources */,
+				B5B9156028CCBB3F004E3077 /* Sizes.swift in Sources */,
 				B5B9153C28CC9C58004E3077 /* MainSectionHeader.swift in Sources */,
 				B5B914BA28CC8FDB004E3077 /* SceneDelegate.swift in Sources */,
 				B5B9150728CC9743004E3077 /* BasePageViewController.swift in Sources */,
@@ -823,7 +920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -878,7 +975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -900,9 +997,9 @@
 				INFOPLIST_FILE = SpaceX/Core/PropertyList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -928,9 +1025,9 @@
 				INFOPLIST_FILE = SpaceX/Core/PropertyList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
