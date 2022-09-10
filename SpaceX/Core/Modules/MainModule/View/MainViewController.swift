@@ -234,8 +234,7 @@ final class MainViewController: UIViewController {
         mainView.collectionView.scrollToLeft(animated: true)
     }
     
-    @objc
-    private func updateCollectionView() {
+    @objc private func updateCollectionView() {
         DispatchQueue.global().async {
             self.presenter.requestData(by: self.serialNumber)
             self.presenter.provideCollectionViewViewModel()
